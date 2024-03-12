@@ -3,10 +3,10 @@
 it was created by using node.js and  other third party libraries  
 this app deployed in rendor.com
 
-deployed URL ``
+deployed URL `https://hall-booking-api-9wn5.onrender.com`
 
 ##### Creating New Room
-To create a new Room we have to enter `` this URL in postman using post call method and  we have to pass the payload like
+To create a new Room we have to enter `https://hall-booking-api-9wn5.onrender.com/create_room` this URL in postman using post call method and  we have to pass the payload like
 
 ```
 {"capacity":100,
@@ -15,7 +15,7 @@ To create a new Room we have to enter `` this URL in postman using post call met
 ```
 ##### Booking Room
 
-to book a room we have to enter `` this URL in postman using post call method and  we have to pass the payload like
+to book a room we have to enter `https://hall-booking-api-9wn5.onrender.com/book` this URL in postman using post call method and  we have to pass the payload like
 
 ```
 {
@@ -31,13 +31,13 @@ to book a room we have to enter `` this URL in postman using post call method an
 
 ##### list all rooms with booked data
 
-we have to make get call for this URL `` to get above details
+we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/bookedrooms` to get above details
 
 
 ##### list all customer with booked data
 
-we have to make get call for this URL `` to get above details
+we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/bookedroomscondition` to get above details
 
 ##### list booked customer with count
 
-we have to make get call for this URL ``  to get above details
+we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/count/:name`  in `name` endpoint we have enter that perticular customer name to get above details 
