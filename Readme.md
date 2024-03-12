@@ -5,7 +5,8 @@ this app deployed in rendor.com
 
 deployed URL `https://hall-booking-api-9wn5.onrender.com`
 
-##### Creating New Room
+#### Creating New Room
+----------------------
 To create a new Room we have to enter `https://hall-booking-api-9wn5.onrender.com/create_room` this URL in postman using post call method and  we have to pass the payload like
 
 ```
@@ -13,8 +14,8 @@ To create a new Room we have to enter `https://hall-booking-api-9wn5.onrender.co
 "amenities":"nothing",
 "price_per_Hour":10000}
 ```
-##### Booking Room
-
+#### Booking Room
+----------------------
 to book a room we have to enter `https://hall-booking-api-9wn5.onrender.com/book` this URL in postman using post call method and  we have to pass the payload like
 
 ```
@@ -29,15 +30,15 @@ to book a room we have to enter `https://hall-booking-api-9wn5.onrender.com/book
 * by default i have created three rooms and stored in local so we can book rooms up to three only , if we want to book a new room first we to create new room and then we can book that particular room with room number
 *
 
-##### list all rooms with booked data
-
+#### list all rooms with booked data
+----------------------
 we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/bookedrooms` to get above details
 
 
-##### list all customer with booked data
-
+#### list all customer with booked data
+----------------------
 we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/bookedroomscondition` to get above details
 
-##### list booked customer with count
-
+#### list booked customer with count
+----------------------
 we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/count/:name`  in `name` endpoint we have enter that perticular customer name to get above details 
