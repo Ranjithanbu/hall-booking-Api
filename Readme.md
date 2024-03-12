@@ -5,7 +5,8 @@ this app deployed in rendor.com
 
 deployed URL `https://hall-booking-api-9wn5.onrender.com`
 #### To get available rooms
-we have make get call for this URL `https://hall-booking-api-9wn5.onrender.com/api/avilablerooms`
+---------------------------
+we have to make get call for this URL `https://hall-booking-api-9wn5.onrender.com/api/avilablerooms`
 
 #### Creating New Room
 ----------------------
